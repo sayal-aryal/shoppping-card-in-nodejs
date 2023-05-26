@@ -1,0 +1,39 @@
+.custom-navbar {
+    background-color: #ffffff;
+}
+
+.table-border {
+    border-color: #000000;
+    border-style: 1px solid;
+}
+
+.product-image {
+    width: 100px;
+    height: 50px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+button:active {
+    background-color: #005cbf;
+}
+
+button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}

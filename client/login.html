@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <!-- Add Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./index-style.css" rel="stylesheet">
+  <script src="./login.js"></script>
+
+
+ 
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <a class="navbar-brand" href="#"><img class="background-img" src="./images/logo.png" width="50" height="50" alt="Website Logo"></a>
+    <form class="form-inline ml-auto" id="login">
+      <div class="form-group">
+        <label class="mr-2 text-dark" for="username">Username</label>
+        <input type="text" class="form-control border-dark" id="username" placeholder="Enter your username">
+      </div>
+      <div class="form-group mx-sm-3">
+        <label class="mr-2 text-dark" for="password">Password</label>
+        <input type="password" class="form-control border-dark" id="password" placeholder="Enter your password">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <span id="login-error" class="text-danger"></div>
+
+  </nav>
+
+  <!-- Welcome Message -->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h1 class="display-4" >Welcome to My Store</h1>
+        <p class="lead">Discover amazing products and great deals!</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
